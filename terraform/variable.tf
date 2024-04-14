@@ -3,7 +3,6 @@ variable "public_key" {
   type        = string
 }
 
-
 variable "private_key" {
   description = "MongoDB Atlas Private API Key"
   type        = string
@@ -11,11 +10,5 @@ variable "private_key" {
 
 variable "project_id" {
   description = "MongoDB Atlas Project ID"
-  type        = string
-}
-
-
-variable "db_password" {
-  description = "password db"
   type        = string
 }
